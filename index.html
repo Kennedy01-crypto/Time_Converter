@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Time Converter</title>
+</head>
+<body>
+    <form >
+        <h2 id="h2">Time Converter</h2>
+        <p>Enter Your Time</p>
+        <input type="text" name="time" id="time" required>
+        <p>The time in 12Hr System is:</p>
+        <input type="time" name="12time" id="12time">
+        <p>The time in 24Hr System is:</p>
+        <input type="text" name="24time" id="24time">
+        <button type="submit" onclick="convertTo24HrsFormat()">Convert</button>
+    </form>
+    <script src="vanilla.js"></script>
+    
+</body>
+</html>

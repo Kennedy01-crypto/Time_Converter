@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --main--color: #ccc;
+    --sec--color:#04263c7e;
+}
+body{
+    background-color: var(--main--color);
+}
+form{
+    width: 200px;
+    height: 300px;
+    border: 1px solid var(--sec--color);
+    color: black;
+    background-color: var(--sec--color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    padding: 10px 5px;
+}
+h2, p{
+    text-align: center;
+}
+input{
+    margin: 10px 5px;
+    width: 190px;
+}
+input[type:"time"]{
+    border-radius: 8px;
+}
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 350%);
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+}
